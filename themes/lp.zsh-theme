@@ -8,10 +8,14 @@ get_abbreviated_hostname() {
   case "$hostname" in
     "ag-r15") echo "r15" ;;
     "ag-r15vm-ubuntu24") echo "vm" ;;
+    "ag-vm-ubuntu") echo "vm" ;;
     "ag-r15vm-fedora42") echo "fdr" ;;
+    "ag-vm-fedora") echo "fdr" ;;
     "ag-r15vm-debian13") echo "dbn" ;;
+    "ag-vm-debian") echo "dbn" ;;
     "ag-r15vm-manjaro") echo "mjr" ;;
     "ag-r15vm-endeavour") echo "ndv" ;;
+    "ag-vm-endeavour") echo "ndv" ;;
     "ag-x51-r3") echo "x51" ;;
     "ag-mbp-15-2016.local") echo "mbp" ;;
     "ag-xps-13-9350") echo "xps" ;;
