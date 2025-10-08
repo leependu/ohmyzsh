@@ -17,6 +17,7 @@ get_abbreviated_hostname() {
     "ag-r15vm-endeavour") echo "ndv" ;;
     "ag-vm-endeavour") echo "ndv" ;;
     "ag-vm-opensuse") echo "suse" ;;
+    "ag-vm-arch") echo "arch" ;;
     "ag-x51-r3") echo "x51" ;;
     "ag-mbp-15-2016.local") echo "mbp" ;;
     "ag-xps-13-9350") echo "xps" ;;
