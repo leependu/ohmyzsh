@@ -20,6 +20,7 @@ get_abbreviated_hostname() {
     "ag-vm-arch") echo "arch" ;;
     "ag-x51-r3") echo "x51" ;;
     "ag-mbp-15-2016.local") echo "mbp" ;;
+    "lg-imac-5k-27-2020.local") echo "imac" ;;
     "ag-xps-13-9350") echo "xps" ;;
     *) echo "$hostname" ;;  # fallback to full hostname if not matched
   esac
